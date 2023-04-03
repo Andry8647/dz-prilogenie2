@@ -14,13 +14,13 @@ public class FirsController {
     public String helloWord(){
         return "Приложение запущенно";
     }
+
     @GetMapping("/info")
     public String info(){
         return "Имя ученика: " + userName + "\n" +
                 "Название вашего проекта: " + name + "\n" +
                 "Дата создания проекта: " + "01.04.2023" + "\n" +
                 "Описание проекта: " + projectFunctions + "\n" ;
-
     }
 
 }
